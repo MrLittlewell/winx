@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="278px" height="268px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 42.931 41.373"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:0.438;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0 str0" points="11.173,13.084 6.666,11.184 6.504,12.852 11.15,14.579 "/>
+  <polygon class="fil0 str0" points="6.353,15.83 6.527,14.092 11.104,15.911 11.15,17.464 "/>
+  <polygon class="fil0 str0" points="6.11,18.646 6.238,16.85 10.965,18.819 10.988,20.43 "/>
+  <polygon class="fil0 str0" points="11.025,23.382 11.029,21.688 6.017,19.77 5.832,21.577 "/>
+  <polyline class="fil0 str0" points="11.41,24.925 5.705,22.875 5.519,24.648 11.128,26.573 "/>
+  <polyline class="fil0 str0" points="10.943,27.655 5.531,25.737 5.403,27.509 10.689,29.144 "/>
+  <polyline class="fil0 str0" points="10.459,30.488 5.311,28.703 5.137,30.406 10.211,31.94 "/>
+  <polyline class="fil0 str0" points="9.986,33.256 5.102,31.576 4.905,33.245 9.824,34.748 "/>
+  <polyline class="fil0 str0" points="9.521,35.976 4.859,34.543 4.685,36.257 9.265,37.477 "/>
+  <polygon class="fil0 str0" points="27.082,5.113 33.756,41.154 8.636,41.154 14.522,6.712 21.266,0.293 "/>
+  <line class="fil0 str0" x1="21.266" y1="0.293" x2="21.266" y2= "41.154" />
+  <polyline class="fil0 str0" points="11.822,22.51 11.765,12.25 5.554,9.77 2.403,14.614 0.238,41.154 8.636,41.154 "/>
+  <line class="fil0 str0" x1="5.554" y1="9.77" x2="3.318" y2= "41.154" />
+  <polygon class="fil0 str0" points="19.818,3.919 15.299,7.65 14.557,11.219 20.026,7.511 "/>
+  <polygon class="fil0 str0" points="13.769,16.664 14.302,13.073 19.794,9.342 19.887,12.934 "/>
+  <polygon class="fil0 str0" points="12.889,22.087 13.468,18.449 19.818,14.787 19.887,18.495 "/>
+  <polygon class="fil0 str0" points="12.008,27.231 12.541,23.663 19.818,20.164 19.864,23.755 "/>
+  <polygon class="fil0 str0" points="11.267,32.839 11.753,29.224 19.91,25.586 19.794,29.294 "/>
+  <polygon class="fil0 str0" points="10.502,38.285 10.965,34.67 19.91,30.985 19.887,34.693 "/>
+  <polygon class="fil0 str0" points="22.483,7.256 22.483,3.966 26.515,6.77 27.048,9.898 "/>
+  <polygon class="fil0 str0" points="27.187,11.427 22.552,9.249 22.506,12.656 27.928,14.811 "/>
+  <polygon class="fil0 str0" points="27.743,16.502 22.459,14.648 22.436,17.916 28.577,20.001 "/>
+  <polygon class="fil0 str0" points="28.438,22.018 22.529,19.932 22.483,23.825 29.319,26.119 "/>
+  <polygon class="fil0 str0" points="29.388,27.765 22.529,25.308 22.506,29.062 30.222,31.519 "/>
+  <polygon class="fil0 str0" points="30.106,33.326 22.483,30.592 22.529,34.415 30.964,36.918 "/>
+  <polyline class="fil0 str0" points="31.826,30.734 32.887,16.618 38.681,14.301 40.859,18.264 42.694,41.154 33.756,41.154 "/>
+  <line class="fil0 str0" x1="38.681" y1="14.301" x2="40.407" y2= "41.154" />
+  <polygon class="fil0 str0" points="38.078,16.108 33.409,17.893 33.339,19.608 38.264,18.067 "/>
+  <polygon class="fil0 str0" points="38.275,19.028 33.189,20.627 33.038,22.365 38.403,20.778 "/>
+  <polygon class="fil0 str0" points="38.426,21.647 32.934,23.315 32.76,25.076 38.472,23.501 "/>
+  <polygon class="fil0 str0" points="38.565,24.346 32.679,26.154 32.575,27.73 38.669,26.223 "/>
+  <polygon class="fil0 str0" points="38.681,27.046 32.526,28.749 32.34,30.58 38.843,28.912 "/>
+  <polyline class="fil0 str0" points="31.979,31.559 38.808,29.92 38.878,32.04 32.294,33.259 "/>
+  <polyline class="fil0 str0" points="32.53,34.534 38.959,33.326 39.156,35.701 32.884,36.444 "/>
+ </g>
+</svg>

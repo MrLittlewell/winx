@@ -390,6 +390,32 @@ ul.tabs {
 .bg-red{
     background: #cb2939!important;
 }
+.service-item{
+    background: white!important;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    border: 1px solid #cb2939;
+}
+.tabs .indicator{
+    background-color: #cb2939;
+}
+.service-item:hover{
+    animation: border 1s ease;
+}
+@keyframes border {
+    0% {
+        border-top: 1px solid inherit;
+        border-right: 1px solid inherit;
+        border-bottom: 1px solid inherit;
+        border-left: 1px solid inherit;
+    }
+    100% {
+        border-top: 1px solid #cb2939;
+        border-right: 1px solid #cb2939;
+        border-bottom: 1px solid #cb2939;
+        border-left: 1px solid #cb2939;
+    }
+}
 @media only screen and (min-width: 993px){
 .container {
     width: 90%;

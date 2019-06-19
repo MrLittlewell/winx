@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $('.tabs').tabs();
+  });
+
 function niceScrollInit() {
     $("html").niceScroll({
         scrollspeed: 60,

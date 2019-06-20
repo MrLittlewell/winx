@@ -260,7 +260,7 @@ button, select, textarea {
 }
 
 .glipf-speedometer:before {
-  content: "\e901";
+  content: url(../images/speedometer.png);
   color: #2d527c;
 }
 
@@ -270,7 +270,7 @@ button, select, textarea {
 }
 
 .glipf-analytics:before {
-  content: "\e903";
+  content: url(../images/analytics2.png);
   color: #2d527c;
 }
 
@@ -289,7 +289,7 @@ button, select, textarea {
 }
 
 .glipf-settings:before {
-  content: "\e907";
+  content: url(../images/cms.png);
   color: #2d527c;
 }
 

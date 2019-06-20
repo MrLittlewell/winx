@@ -9348,3 +9348,52 @@ input:-internal-autofill-selected, input:-webkit-autofill {
 .w100{
   width: 95%;
 }
+@media screen and (max-width:767px) {
+  .logo img {
+    width: 200px;
+  }
+  body .hidden-lg{
+    display: block!important;
+    position: relative;
+    top: 15px;
+  }
+  .main-nav ul {
+    background: rgba(255,255,255,.95);
+    left: 0;
+    opacity: 0;
+    padding-bottom: 15px;
+    position: fixed;
+    top: 72px;
+    visibility: hidden;
+    width: 100%;
+}
+.main-nav ul.active {
+  margin-top: -8px;
+  opacity: 1;
+  visibility: visible;
+  height: 370px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-nav ul li a {
+  color: #333!important;
+  height: 45px;
+}
+body .main-nav{
+  padding: 0 30px;
+}
+body .blog{
+    width: 80%;
+    margin: auto;
+}
+body #blog > div.results-block > a > span{
+  height: auto;
+}
+body #blog > div.results-block > a{
+  height: 180px;
+}
+body .result-item-new{
+  margin: 0;
+}
+}

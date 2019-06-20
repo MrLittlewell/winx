@@ -374,4 +374,11 @@ function is_mobile() {
   });
   $(document).ready(function() {
     $(".result-item-new").fancybox();
+
+    $(".scroll").on("click", function () {
+      var e = $(this).data("scroll"), t = $(e).offset().top;
+      $("html, body").stop().animate({scrollTop: t + "px"}, 1100, "easeInOutExpo"), $(".main-nav ul").removeClass("active"), event.preventDefault()
+  }), $(".nav-bars").on("click", function () {
+      $(".main-nav ul").toggleClass("active")
+  })
 });

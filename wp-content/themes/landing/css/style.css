@@ -2888,7 +2888,7 @@ a *
 	}
 	.promo
 	{
-		height: auto;
+		height: 100vh;
 	}
 	.how-item:nth-child(2n)
 	{
@@ -4759,4 +4759,41 @@ ul.tabs {
     width: 100%;
     height: 100%;
     z-index: 2;
+}
+@media screen and (max-width:767px)
+{
+	#services > div.container > div > div:nth-child(1) > ul{
+		flex-direction: column;
+		margin-bottom: 70px;
+	}
+	body .tabs .tab{
+		width: 100%;
+		height: 160px;
+	}
+	body .service-item__image{
+		height: 100px;
+	}
+	body .services-content-slider{
+		/* flex-direction: column; */
+		display: block;
+	}
+	body .single-service{
+		max-width: 100%;
+		margin: 50px 0 !important;
+	}
+	body #particles-js{
+		height: 100vh;
+	}
+	body .promo .container{
+		left: auto;
+	}
+	body .promo-content{
+		position: absolute;
+    	top: 10%;
+    	left: 9%;
+	}
+	body .single-service__content-image{
+		display: flex;
+		justify-content: center;
+	}
 }

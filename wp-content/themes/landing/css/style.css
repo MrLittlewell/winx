@@ -4415,7 +4415,7 @@ a *
     right: -55px;
     content: '';
     height: 4px;
-    background: #cc0033;
+    background: #ffd861;
     width: 300px;
     margin-left: -150px;
 }
@@ -4461,7 +4461,7 @@ a *
     justify-content: center;
 }
 .service-item.active .service-item__image {
-    background: #cc0033;
+	background: #ffd861;
 }
 #service-1 {
     width: 100px;
@@ -4498,7 +4498,7 @@ a *
     text-align: center;
 
     background: white;
-    font: 700 15px/75px "Roboto Condensed";
+	font: 800 16px "Proxima Nova Th";
 }
 .service-item.active .service-item__title {
     font-weight: bold;
@@ -4554,7 +4554,7 @@ a *
     margin: 0;
     background: #303132;
     color: #fff;
-    font: 700 15px/15px "Roboto Condensed";
+	font: 800 16px "Proxima Nova Th";
     padding: 10px 20px;
     color: #fff;
     text-align: center;
@@ -4566,7 +4566,7 @@ a *
     top: 8px;
     left: 0;
     content: '';
-    background: #cb2939;
+    background: #ffd861;
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -4586,7 +4586,7 @@ a *
     flex: 0 0 100%;
     text-align: center;
     font-weight: 500;
-    font-family: 'Avenir Next Cyr';
+	font: 800 16px "Proxima Nova Th";
 }
 .single-service__terms-wrap {
     display: -webkit-box;
@@ -4604,7 +4604,7 @@ a *
 .single-service h3 {
     font-weight: bold;
     color: #303132;
-    font: 700 15px/20px "Roboto Condensed";
+	font: 800 16px "Proxima Nova Th";
     margin: 0 25px;
     text-align: center;
 }
@@ -4668,7 +4668,7 @@ a *
     height: 0;
     border-style: solid;
     border-width: 16px 10px 0 10px;
-    border-color: #cc0033 transparent transparent transparent;
+    border-color: #ffd861 transparent transparent transparent;
     content: '';
     margin-left: -10px;
 }
@@ -4707,24 +4707,24 @@ ul.tabs {
 }
 .single-service:hover{
     transition: .25s;
-    border: 1px solid #cb2939;
+    border: 1px solid #ffd861;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
     transform: scaleY(1.1);
 }
 .single-service:hover span.more{
-    background: #cb2939!important;
+    background: #ffd861!important;
 }
 .bg-red{
-    background: #cb2939!important;
+    background: #ffd861!important;
 }
 .service-item{
     background: white!important;
 }
 .tabs .tab a:focus, .tabs .tab a:focus.active{
-    border: 1px solid #cb2939;
+    border: 1px solid #ffd861;
 }
 .tabs .indicator{
-    background-color: #cb2939;
+    background-color: #ffd861;
 }
 .service-item:hover{
     animation: border 1s ease;
@@ -4735,11 +4735,28 @@ ul.tabs {
         border-right: 1px solid inherit;
         border-bottom: 1px solid inherit;
         border-left: 1px solid inherit;
+	}
+	50% {
+        border-top: 1px solid #ffd861;
+        border-right: 1px solid #ffd861;
+        border-bottom: 1px solid #ffd861;
+        border-left: 1px solid #ffd861;
     }
     100% {
-        border-top: 1px solid #cb2939;
-        border-right: 1px solid #cb2939;
-        border-bottom: 1px solid #cb2939;
-        border-left: 1px solid #cb2939;
+        border-top: 2px solid #ffd861;
+        border-right: 2px solid #ffd861;
+        border-bottom: 2px solid #ffd861;
+        border-left: 2px solid #ffd861;
     }
+}
+#services > div.container > div > div:nth-child(1) > ul > li.indicator{
+	display: none;
+}
+.single-service .box-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
 }

@@ -312,7 +312,7 @@ button, select, textarea {
 }
 
 .glipf-growth:before {
-  content: "\e90c";
+  content: url(../images/goal.png);
   color: #c03;
 }
 
@@ -402,21 +402,21 @@ button, select, textarea {
 }
 
 .glipf-audit:before {
-  content: "\e91e";
+  content: url(../images/computer.png);
   color: #c03;
 }
 
 .glipf-aydit-2:before {
-  content: "\e91f";
+  content: url(../images/monitor.png);
   color: #c03;
 }
 
 .glipf-carry:before {
-  content: "\e920";
+  content: url(../images/copy-files.png);
 }
 
 .glipf-chanhe:before {
-  content: "\e921";
+  content: url(../images/completed-tasks-hand-drawn-clipboard-sign-with-verification-mark.png);
 }
 
 .glipf-chanhe-2:before {
@@ -424,21 +424,21 @@ button, select, textarea {
 }
 
 .glipf-clock:before {
-  content: "\e923";
+  content: url(../images/stopwatch.png);
   color: #2d527c;
 }
 
 .glipf-coverage:before {
-  content: "\e924";
+  content: url(../images/sway.png);
   color: #2d527c;
 }
 
 .glipf-create-ads:before {
-  content: "\e925";
+  content: url(../images/documents-button.png);
 }
 
 .glipf-function-site:before {
-  content: "\e926";
+  content: url(../images/repair.png);
   color: #2d527c;
 }
 
@@ -448,20 +448,20 @@ button, select, textarea {
 }
 
 .glipf-launch:before {
-  content: "\e928";
+  content: url(../images/button.png);
 }
 
 .glipf-log:before {
-  content: "\e929";
+  content: url(../images/documents-button.png);
 }
 
 .glipf-manager:before {
-  content: "\e92a";
+  content: url(../images/television.png);
   color: #2d527c;
 }
 
 .glipf-monitoring .path1:before {
-  content: "\e92b";
+  content: url(../images/research.png);
   color: #2d527c;
 }
 
@@ -538,30 +538,30 @@ button, select, textarea {
 }
 
 .glipf-optimization:before {
-  content: "\e938";
+  content: url(../images/coding.png);
   color: #c03;
 }
 
 .glipf-optimization-2:before {
-  content: "\e939";
+  content: url(../images/analytics.png);
   color: #c03;
 }
 
 .glipf-reccomend:before {
-  content: "\e93a";
+  content: url(../images/shopping.png);
   color: #c03;
 }
 
 .glipf-recruitment:before {
-  content: "\e93b";
+  content: url(../images/contract.png);
 }
 
 .glipf-revision:before {
-  content: "\e93c";
+  content: url(../images/project-management.png);
 }
 
 .glipf-saving:before {
-  content: "\e93d";
+  content: url(../images/economy.png);
   color: #2d527c;
 }
 
@@ -570,7 +570,7 @@ button, select, textarea {
 }
 
 .glipf-shattle:before {
-  content: "\e93f";
+  content: url(../images/rocket-launch.png);
   color: #2d527c;
 }
 
@@ -580,15 +580,15 @@ button, select, textarea {
 }
 
 .glipf-targeting-setting:before {
-  content: "\e941";
+  content: url(../images/project-management.png);
 }
 
 .glipf-tex:before {
-  content: "\e942";
+  content: url(../images/new-file.png);
 }
 
 .glipf-trust:before {
-  content: "\e943";
+  content: url(../images/group.png);
   color: #2d527c;
 }
 
@@ -597,12 +597,12 @@ button, select, textarea {
 }
 
 .glipf-usab:before {
-  content: "\e945";
+  content: url(../images/tap.png);
   color: #c03;
 }
 
 .glipf-var-log:before {
-  content: "\e946";
+  content: url(../images/layers.png);
 }
 
 .header:after, .main-nav .drop-holder:after, .feedback-form__row:after, .check-wrap:after, .mobile-drop__header:after, .contact-phone:after, .contact-address:after, .contact-footer:after, .container:after {
@@ -1865,7 +1865,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .inner-page_main-title {
   font-size: 2.5rem;
-  white-space: nowrap;
   margin: 0 0 1em 0;
 }
 
@@ -5751,6 +5750,7 @@ address.footer-contact .footer-contact__icon {
 }
 
 .inner_form-static .icon-file:before {
+  content: url(../images/clip.png);
   color: #c03;
 }
 
@@ -7270,8 +7270,9 @@ input:-internal-autofill-selected, input:-webkit-autofill {
 
 .seo-important_item-title {
   font-weight: 600;
-  line-height: 1.5;
-  margin: 0 0 1.6em;
+    line-height: 1.5;
+    margin: 0 0 0.1em;
+    font-size: 20px;
 }
 
 .seo-important_item {
@@ -9180,4 +9181,12 @@ input:-internal-autofill-selected, input:-webkit-autofill {
 }
 .hidden-lg {
   display: none!important;
+}
+.single-service .box-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
 }

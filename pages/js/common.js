@@ -372,3 +372,6 @@ function is_mobile() {
       });
   
   });
+  $(document).ready(function() {
+    $(".result-item-new").fancybox();
+});

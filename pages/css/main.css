@@ -266,7 +266,7 @@ textarea {
 }
 
 .glipf-html5:before {
-    content: "\e900";
+    content: url(../images/html5.png);
 }
 
 .glipf-speedometer:before {
@@ -290,7 +290,7 @@ textarea {
 }
 
 .glipf-vk:before {
-    content: "\e905";
+    content: url(../images/vk-social-network-logo.png);
 }
 
 .glipf-loyalty:before {
@@ -304,11 +304,11 @@ textarea {
 }
 
 .glipf-yandex:before {
-    content: "\e908";
+    content: url(../images/yandex.png);
 }
 
 .glipf-adwords:before {
-    content: "\e909";
+    content: url(../images/ga.png);
 }
 
 .glipf-premium:before {
@@ -327,7 +327,11 @@ textarea {
 }
 
 .glipf-instagram-logo:before {
-    content: "\e90d";
+    content: url(../images/instagram-logo.png);
+}
+
+.glipf-gif:before {
+    content: url(../images/gif.png);
 }
 
 .glipf-settings-1:before {
@@ -341,11 +345,11 @@ textarea {
 }
 
 .glipf-youtube:before {
-    content: "\e910";
+    content: url(../images/youtube.png);
 }
 
 .glipf-adobe-flash-player:before {
-    content: "\e911";
+    content: url(../images/adobe-flash-logo.png);
 }
 
 .glipf-networking:before {
@@ -494,7 +498,7 @@ textarea {
 }
 
 .glipf-monitoring .path5:before {
-    content: "\e92f";
+    content: url(../images/gif.png);
     margin-left: -1em;
     color: #2d527c;
 }
@@ -9505,10 +9509,26 @@ input:-webkit-autofill {
 
 .blog {
     width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    height: auto;
+    position: relative;
+    margin: 0 32px 32px 0;
+    -webkit-box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0.5)
 }
 
 .w100 {
-    width: 95%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.w100 img {
+    width: 100%;
 }
 
 @media screen and (max-width:767px) {
@@ -9559,6 +9579,14 @@ input:-webkit-autofill {
     body .result-item-new {
         margin: 0;
     }
+    body #start img {
+        width: 100%;
+        height: auto;
+    }
+    body #start .col-xs-12 {
+        width: 100%;
+        text-align: justify;
+    }
 }
 
 #index>main>div.inner_form-section>div>div>form>div.row {
@@ -9569,4 +9597,9 @@ input:-webkit-autofill {
 #start-work>div>div>div>form>div.row {
     flex-direction: column;
     align-items: center;
+}
+
+#start img {
+    display: block;
+    margin: 0 auto;
 }

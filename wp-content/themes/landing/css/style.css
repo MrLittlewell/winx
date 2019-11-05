@@ -410,7 +410,7 @@ button {
 
 .how-item-title {
     color: #fff;
-    font: 800 19px/24px "Proxima Nova Th";
+    font: 800 19px/24px "Proxima Nova Lt";
 }
 
 .how-item:hover .how-item-title {
@@ -4984,12 +4984,13 @@ ul.tabs {
   justify-content: space-between;
   width: 250px;
   box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+  border-radius: 5px;
 }
 .we-did__text {
-  font: 800 14px "Proxima Nova Th";
-  padding-top: 20px;
-  border-top: 1px solid #e4e5e6;
-  height: 90px;
+    font: 800 15px "Proxima Nova Lt";
+    padding-top: 20px;
+    border-top: 1px solid#e4e5e6;
+    height: 110px;
 }
 .we-did__img img {
   width: 100px;
@@ -5036,6 +5037,7 @@ ul.tabs {
 #services .service, #services .service__title {
   position: relative;
   color: #222b33;
+  min-height: 60px;
 }
 #services .service__title {
   z-index: 1;
@@ -5044,6 +5046,7 @@ ul.tabs {
   letter-spacing: .2px;
   margin: 0;
   width: 100%;
+  font: 800 20px/20px "Proxima Nova Th";
 }
 .service__descr {
   -webkit-box-flex: 1;
@@ -5153,5 +5156,15 @@ ul.tabs {
   right: -72px;
 }
 #services .custom-btn {
-  font: 800 20px/44px "Proxima Nova Th";
+  font: 800 18px/40px "Proxima Nova Th";
+}
+.promo-content .col-lg-12 {
+    width: 50%;
+    position: absolute;
+    color:white;
+    right: 40px;
+    top: 250px;
+}
+.title {
+    font: 800 30px "Proxima Nova Th";
 }

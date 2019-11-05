@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+
+RewriteCond %{HTTP_HOST} ^winx\.by$ [NC]
+
+RewriteRule ^(.*)$ https://www.winx.by [L,R=301]
+

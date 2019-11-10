@@ -322,3 +322,13 @@ $('.about-slider').slick({
   slidesToScroll: 1,
   autoplaySpeed: 1500
 });
+
+$('#show-more').click(function() {
+  $('.add-service').addClass('as-show');
+  $(this).hide()
+})
+
+$('.tabs .tab').click(function() {
+  $('.tabs .tab.active').removeClass('active');
+  $('.tabs .tab:hover').addClass('active');
+})

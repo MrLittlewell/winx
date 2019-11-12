@@ -186,6 +186,7 @@ button {
 .mobile-number {
   display: none;
 }
+
 body .mini-logo {
   display: none;
 }
@@ -2854,6 +2855,7 @@ input {
   margin: 0;
   border-radius: 5px;
 }
+
 .work-item {
   position: relative;
   width: 380px;
@@ -2864,9 +2866,11 @@ input {
   vertical-align: top;
   text-align: left;
 }
+
 .title-emoji img {
   width: 30px;
 }
+
 @media screen and (max-width:1440px) {
   .main-nav ul li a {
     font: 700 14px/75px "Roboto Condensed";
@@ -2877,6 +2881,7 @@ input {
     display: block;
     width: 230px;
   }
+
   body .mini-logo {
     display: none;
   }
@@ -2891,6 +2896,7 @@ input {
     max-width: none;
     padding: 0 30px;
   }
+
   #about .container .row {
     display: flex;
     justify-content: center;
@@ -2924,20 +2930,25 @@ input {
   .title-thin {
     font: 300 30px "Proxima Nova Lt";
   }
+
   #case-tabs h2 {
     font: 790 45px "Proxima Nova Th";
     margin-left: 5%;
   }
+
   .tab-list__item {
     margin-left: 50px;
     margin-top: 130px;
   }
+
   .display-tab img {
     max-width: 585px;
   }
+
   #services .custom-btn {
     font: 800 12px/47px "Proxima Nova Th";
   }
+
   .service-list {
     font: 800 14px/15px "Proxima Nova Lt";
   }
@@ -3147,50 +3158,70 @@ input {
   .google-partners {
     display: none;
   }
+
   #case-tabs .tabs .tab {
     width: 40%;
   }
+
+  #case-tabs .tabs .tab.active a:before {
+    left: -100px;
+    right: 0;
+  }
+
   #case-tabs ul li a::before {
     right: 160px;
   }
+
   #case-tabs h2 {
     font: 800 41px "Proxima Nova Th";
   }
+
   .tab-list__item {
     margin-top: 80px;
   }
+
   #case-tabs .display-tab h2 {
     font: 800 35px "Proxima Nova Th";
   }
+
   .add-service {
     flex-wrap: wrap;
   }
+
   .works.works-container {
     display: flex;
     flex-wrap: wrap;
   }
+
   .work-item {
     width: 357px;
     height: 310px;
   }
+
   .as-show {
     height: 725px;
   }
+
   .display-tab img {
     max-width: 420px;
   }
+
   #about .container .row {
     flex-direction: column;
   }
+
   #services .service {
     width: 40%;
   }
+
   body .big-logo {
     display: none;
   }
+
   body .mini-logo {
     display: block;
   }
+
   .clients-item:nth-child(11),
   .clients-item:nth-child(5n),
   .main-nav ul li a,
@@ -3204,18 +3235,24 @@ input {
   .video-bg {
     display: none !important;
   }
+
   .mobile-number img {
     width: 30px;
   }
+
   .cosial-img {
     display: flex;
   }
+
   .cosial-img img:nth-child(1) {
     margin-right: 5px;
   }
+
   .cosial-img img {
     width: 20px;
+    height: 20px;
   }
+
   .new-year .container {
     padding-bottom: 70px;
     padding-top: 70px;
@@ -3303,7 +3340,7 @@ input {
     height: 60px;
     padding: 0 50px;
   }
-  
+
 
   .logo img {
     width: 70px;
@@ -3590,32 +3627,42 @@ input {
 }
 
 @media screen and (max-width:767px) {
-  
+
   .cases-content__inner,
   .types-content__inner,
   .types-links {
     webkit-box-direction: normal;
     webkit-box-orient: vertical;
   }
+
   .main-nav.active {
     padding: 0 30px;
   }
+
   #services .service {
     width: 45%;
   }
+
+  .nav-tel-second .yellow-number {
+    width: 50%;
+    margin: 0 auto;
+  }
+
   .add-service {
     flex-direction: row;
   }
+
   .as-show {
     height: 1130px;
   }
-  
+
   .works.works-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   #case-tabs h2 {
     font: 800 45px "Proxima Nova Th";
     margin: 0;
@@ -3978,9 +4025,11 @@ input {
   .title-main {
     font: 800 40px/40px "Proxima Nova Th";
   }
+
   .main-nav.active {
     padding: 0 20px;
   }
+
   .custom-modal-subtitle br,
   .custom-modal-title br {
     display: none;
@@ -5793,7 +5842,7 @@ ul.tabs {
 
   body .promo-content {
     position: absolute;
-    top: 5%;
+    top: 25%;
     left: 2px;
     padding: 0;
   }

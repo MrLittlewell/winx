@@ -1657,12 +1657,12 @@ body .mini-logo {
 
 .main-nav ul li a {
   color: #333 !important;
-  display: block;
   font: 700 15px/75px "Roboto Condensed";
-  height: 75px;
   padding: 0 14px;
 }
-
+.nav-tel-second.yellow-number {
+  padding: 15px 10px;
+}
 .main-nav ul li a:hover {
   background: rgba(255, 255, 255, .25);
   color: #ffc000 !important;
@@ -2780,7 +2780,7 @@ input {
 }
 
 .title {
-  font: 800 30px "Proxima Nova Th";
+  font: 800 40px "Proxima Nova Th";
 }
 
 #about .slick-track {
@@ -2798,6 +2798,7 @@ input {
 
 .as-show {
   height: 364px;
+  overflow: unset;
 }
 
 #show-more {
@@ -2951,6 +2952,9 @@ input {
 
   .service-list {
     font: 800 14px/15px "Proxima Nova Lt";
+  }
+  #accordion .custom-btn {
+    font: 800 20px/40px "Proxima Nova Th";
   }
 }
 
@@ -3137,6 +3141,11 @@ input {
   .logo {
     margin-top: 16px;
   }
+  .works.works-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width:1024px) {
@@ -3197,7 +3206,9 @@ input {
     width: 357px;
     height: 310px;
   }
-
+  #work .work-item {
+    height: auto;
+  }
   .as-show {
     height: 725px;
   }
@@ -3349,12 +3360,13 @@ input {
   .main-nav ul.active {
     opacity: 1;
     visibility: visible;
-    height: 370px;
+    height: 275px;
   }
 
   .main-nav ul li {
     display: block;
     margin: 0 !important;
+    text-align: center;
   }
 
   .about-item-text span,
@@ -3643,11 +3655,11 @@ input {
     width: 45%;
   }
 
-  .nav-tel-second .yellow-number {
+  .nav-tel-second.yellow-number {
     width: 50%;
     margin: 0 auto;
   }
-
+  
   .add-service {
     flex-direction: row;
   }
@@ -4272,6 +4284,7 @@ input {
 
   body #portfolio .container {
     padding-left: 0;
+    padding-right: 0;
   }
 
   body .test-header {
@@ -4294,7 +4307,7 @@ input {
 
 .nav-tel-second {
   height: 0;
-  margin: 5px 0 0;
+
 }
 
 .contacts:after {

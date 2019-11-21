@@ -3670,9 +3670,14 @@ input {
 
   .works.works-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  body .panel-group {
+    width: 100%;
+  }
+  .form-wrap {
+    width: 100%;
   }
 
   #case-tabs h2 {
@@ -3687,8 +3692,18 @@ input {
   .display-tab>div,
   .display-tab>div>div {
     flex-direction: column;
+    align-items: center;
   }
-
+  .how-item:before {
+    display: none;
+  }
+  .result-item-new {
+    margin: 0;
+  }
+  .work-item {
+    width: 310px;
+    height: 300px;
+}
   .display-tab>div,
   .display-tab>div>div img {
     width: 100%;
@@ -3706,7 +3721,10 @@ input {
 
   #case-tabs ul li a::before {
     right: 0;
-    left: 100px;
+    left: -80px;
+  }
+  #case-tabs .tabs .tab {
+    position: relative;
   }
 
   #case-tabs h2 {}
@@ -4037,7 +4055,13 @@ input {
   .title-main {
     font: 800 40px/40px "Proxima Nova Th";
   }
-
+  body #accordion .custom-btn {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .custom-modal-title {
+    font: 800 20px "Proxima Nova Th";
+  }
   .main-nav.active {
     padding: 0 20px;
   }
@@ -4166,6 +4190,7 @@ input {
   .contacts .actions-wrap .custom-btn {
     line-height: normal;
     padding: 12px 35px;
+    width: 100%;
   }
 
   #order-modal {
@@ -5855,7 +5880,7 @@ ul.tabs {
 
   body .promo-content {
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 2px;
     padding: 0;
   }
